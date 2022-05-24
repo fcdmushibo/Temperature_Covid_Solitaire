@@ -8,13 +8,6 @@ import java.util.Random;
 
 public class temperture {
     public static void main(String[] args) {
-        // List<String> list  = new ArrayList<String>();
-        //String[] name_of_classmate = {"name0","name1", "name2", "name3"};
-    /*
-    name_of_classmate[0] = ("name2");
-    name_of_classmate[1] = ("name1");
-    name_of_classmate[2] =("name0");
-    */
         List<String> list = new ArrayList<>();
         list.add("name0");
         list.add("name1");
@@ -53,6 +46,5 @@ public class temperture {
             String result = new BigDecimal(value).setScale(precimal, BigDecimal.ROUND_HALF_DOWN).toPlainString();
             System.out.println(q + list.get(i) + " " + "早测体温" + " " + result);
         }
-
     }
 }
